@@ -234,6 +234,12 @@ void Pipsolar::loop() {
         if (this->inverter_heat_sink_temperature_) {
           this->inverter_heat_sink_temperature_->publish_state(value_inverter_heat_sink_temperature_);
         }
+        // Prosthiki 14/3/2026
+	    }
+        if (this->pv1_input_current_) {
+          this->pv1_input_current_->publish_state(value_pv1_input_current_);
+        }
+	  
         if (this->pv_input_current_for_battery_) {
           this->pv_input_current_for_battery_->publish_state(value_pv_input_current_for_battery_);
         }
