@@ -106,9 +106,9 @@ void Pipsolar::loop() {
         if (this->battery_float_voltage_) {
           this->battery_float_voltage_->publish_state(value_battery_float_voltage_);
         }
-        //if (this->battery_type_) {
-        //  this->battery_type_->publish_state(value_battery_type_);
-        //}
+        if (this->battery_type_) {
+          this->battery_type_->publish_state(value_battery_type_);
+        }
         //  select for battery_type
         if (this->battery_type_select_) {
           std::string value = esphome::to_string(value_battery_type_);
