@@ -110,10 +110,10 @@ void Pipsolar::loop() {
         //  this->battery_type_->publish_state(value_battery_type_);
         //}
         //  select for battery_type
-        //if (this->battery_type_select_) {
-        //  std::string value = esphome::to_string(value_battery_type_);
-        //  this->battery_type_select_->map_and_publish(value);
-        //}
+        if (this->battery_type_select_) {
+          std::string value = esphome::to_string(value_battery_type_);
+          this->battery_type_select_->map_and_publish(value);
+        }
         if (this->current_max_ac_charging_current_) {
           this->current_max_ac_charging_current_->publish_state(value_current_max_ac_charging_current_);
         }
