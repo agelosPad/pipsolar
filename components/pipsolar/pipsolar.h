@@ -74,6 +74,8 @@ class Pipsolar : public uart::UARTDevice, public PollingComponent {
   PIPSOLAR_SENSOR(inverter_heat_sink_temperature, QPIGS, int)
   PIPSOLAR_SENSOR(pv1_input_current, QPIGS, float)
   PIPSOLAR_SENSOR(pv_input_current_for_battery, QPIGS, float)
+  //prosthiki 14/3/2026
+  PIPSOLAR_SENSOR(pv1_input_voltage, QPIGS, float)
   PIPSOLAR_SENSOR(pv_input_voltage, QPIGS, float)
   PIPSOLAR_SENSOR(battery_voltage_scc, QPIGS, float)
   PIPSOLAR_SENSOR(battery_discharge_current, QPIGS, int)
