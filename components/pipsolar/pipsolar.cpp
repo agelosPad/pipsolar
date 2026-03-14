@@ -287,6 +287,10 @@ void Pipsolar::loop() {
         if (this->eeprom_version_) {
           this->eeprom_version_->publish_state(value_eeprom_version_);
         }
+        //prosthiki 14/3/26
+	    if (this->pv1_charging_power_) {
+          this->pv1_charging_power_->publish_state(value_pv1_charging_power_);
+        }
         if (this->pv_charging_power_) {
           this->pv_charging_power_->publish_state(value_pv_charging_power_);
         }
