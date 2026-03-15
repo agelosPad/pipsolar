@@ -42,7 +42,7 @@ CONF_BATTERY_REDISCHARGE_VOLTAGE = "battery_redischarge_voltage"
 
 TYPES = {
     CONF_BATTERY_BULK_VOLTAGE: (
-        [44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0],
+        [28.0, 28.1, 28.2, 28.3, 28.4, 28.5, 28.6, 28.7],
         "PCVV%02.1f",
     ),
     CONF_BATTERY_RECHARGE_VOLTAGE: (
