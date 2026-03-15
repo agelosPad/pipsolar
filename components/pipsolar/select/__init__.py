@@ -18,6 +18,7 @@ CONF_CURRENT_MAX_CHARGING_CURRENT = "current_max_charging_current"
 CONF_CURRENT_MAX_AC_CHARGING_CURRENT = "current_max_ac_charging_current"
 CONF_BATTERY_TYPE = "battery_type"
 CONF_BATTERY_FLOAT_VOLTAGE = "battery_float_voltage"
+CONF_BATTERY_BULK_VOLTAGE = "battery_bulk_voltage"
 
 
 PipsolarSelect = pipsolar_ns.class_("PipsolarSelect", cg.Component, select.Select)
