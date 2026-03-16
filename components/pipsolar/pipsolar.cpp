@@ -497,9 +497,9 @@ void Pipsolar::loop() {
                &value_ac_output_rating_frequency_, &value_ac_output_rating_current_,                        // NOLINT
                &value_ac_output_rating_apparent_power_, &value_ac_output_rating_active_power_,              // NOLINT
                &value_battery_rating_voltage_, &value_battery_recharge_voltage_,                            // NOLINT
-               &value_battery_under_voltage_, &value_battery_bulk_voltage_, &value_battery_float_voltage_,  // NOLINT    
+               &value_battery_under_voltage_, &value_battery_float_voltage_,  // NOLINT    
                &value_battery_type_, &value_current_max_ac_charging_current_,                               // NOLINT
-               &value_current_max_charging_current_, &value_input_voltage_range_,                           // NOLINT
+               &value_current_max_charging_current_, &value_input_voltage_range_, &value_battery_bulk_voltage_,                           // NOLINT
                &value_output_source_priority_, &value_charger_source_priority_, &value_parallel_max_num_,   // NOLINT
                &value_machine_type_, &value_topology_, &value_output_mode_,                                 // NOLINT
                &value_battery_redischarge_voltage_, &value_pv_ok_condition_for_parallel_,                   // NOLINT
