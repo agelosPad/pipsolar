@@ -11,11 +11,11 @@ CODEOWNERS = ["@andreashergert1984"]
 CONF_OPTIONSMAP = "optionsmap"
 CONF_STATUSMAP = "statusmap"
 
-CONF_OUTPUT_SOURCE_PRIORITY = "output_source_priority"
-CONF_CHARGER_SOURCE_PRIORITY = "charger_source_priority"
-CONF_CHARGING_DISCHARGING_CONTROL = "charging_discharging_control"
-CONF_CURRENT_MAX_CHARGING_CURRENT = "current_max_charging_current"
-CONF_CURRENT_MAX_AC_CHARGING_CURRENT = "current_max_ac_charging_current"
+#CONF_OUTPUT_SOURCE_PRIORITY = "output_source_priority"
+#CONF_CHARGER_SOURCE_PRIORITY = "charger_source_priority"
+#CONF_CHARGING_DISCHARGING_CONTROL = "charging_discharging_control"
+#CONF_CURRENT_MAX_CHARGING_CURRENT = "current_max_charging_current"
+#CONF_CURRENT_MAX_AC_CHARGING_CURRENT = "current_max_ac_charging_current"
 CONF_BATTERY_TYPE = "battery_type"
 CONF_BATTERY_FLOAT_VOLTAGE = "battery_float_voltage"
 CONF_BATTERY_BULK_VOLTAGE = "battery_bulk_voltage"
@@ -80,11 +80,11 @@ def ensure_option_map():
 # )
 
 TYPES = {
-    CONF_OUTPUT_SOURCE_PRIORITY: ("POP00", None),
-    CONF_CHARGER_SOURCE_PRIORITY: ("PCP03", None),
-    CONF_CHARGING_DISCHARGING_CONTROL: ("PBATCD111", None),
-    CONF_CURRENT_MAX_CHARGING_CURRENT: ("MCHGC010", None),
-    CONF_CURRENT_MAX_AC_CHARGING_CURRENT: ("MUCHGC0002", None),
+    #CONF_OUTPUT_SOURCE_PRIORITY: ("POP00", None),
+    #CONF_CHARGER_SOURCE_PRIORITY: ("PCP03", None),
+    #CONF_CHARGING_DISCHARGING_CONTROL: ("PBATCD111", None),
+    #CONF_CURRENT_MAX_CHARGING_CURRENT: ("MCHGC010", None),
+    #CONF_CURRENT_MAX_AC_CHARGING_CURRENT: ("MUCHGC0002", None),
     CONF_BATTERY_TYPE: ("PBT00", None),
     CONF_BATTERY_FLOAT_VOLTAGE: ("PBFT00.00", None),
     CONF_BATTERY_BULK_VOLTAGE: ("PCVV00.00", None),
