@@ -14,7 +14,6 @@ CONF_STATUSMAP = "statusmap"
 CONF_BATTERY_TYPE = "battery_type"
 CONF_BATTERY_FLOAT_VOLTAGE = "battery_float_voltage"
 CONF_BATTERY_BULK_VOLTAGE = "battery_bulk_voltage"
-
 CONF_OUTPUT_SOURCE_PRIORITY = "output_source_priority"
 CONF_CHARGER_SOURCE_PRIORITY = "charger_source_priority"
 CONF_CHARGING_DISCHARGING_CONTROL = "charging_discharging_control"
@@ -85,8 +84,7 @@ TYPES = {
     
     CONF_BATTERY_TYPE: ("PBT00", None),
     CONF_BATTERY_FLOAT_VOLTAGE: ("PBFT00.00", None),
-    CONF_BATTERY_BULK_VOLTAGE: ("PCVV00.00", None),
-    
+    CONF_BATTERY_BULK_VOLTAGE: ("PCVV00.00", None),    
     CONF_OUTPUT_SOURCE_PRIORITY: ("POP00", None),
     CONF_CHARGER_SOURCE_PRIORITY: ("PCP03", None),
     CONF_CHARGING_DISCHARGING_CONTROL: ("PBATCD111", None),
