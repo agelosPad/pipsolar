@@ -100,9 +100,9 @@ void Pipsolar::loop() {
         if (this->battery_under_voltage_) {
           this->battery_under_voltage_->publish_state(value_battery_under_voltage_);
         }
-        //if (this->battery_bulk_voltage_) {
-        //  this->battery_bulk_voltage_->publish_state(value_battery_bulk_voltage_);
-        //}
+        if (this->battery_bulk_voltage_) {
+          this->battery_bulk_voltage_->publish_state(value_battery_bulk_voltage_);
+        }
         //  battery_bulk_voltage_select
         if (this->battery_bulk_voltage_select_) {
           std::string value = esphome::to_string(value_battery_bulk_voltage_);
